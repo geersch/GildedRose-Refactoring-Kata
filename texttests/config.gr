@@ -8,7 +8,7 @@ diff_program:meld
 
 # Settings for the Python version
 #executable:${TEXTTEST_HOME}/python/texttest_fixture.py
-#interpreter:python
+#interpreter:python3
 
 # Settings for the cpp version
 #executable:${TEXTTEST_HOME}/cpp/cmake-build-debug/test/cpp_texttest/GildedRoseTextTests
@@ -47,8 +47,8 @@ interpreter:ruby
 #interpreter:perl
 
 # Settings for the TypeScript version
-#executable:${TEXTTEST_HOME}/TypeScript/texttest_rig.py
-#interpreter:python
+executable:${TEXTTEST_HOME}/TypeScript/texttest_rig.py
+interpreter:python3
 
 # Settings for the Javascript Jest version
 #executable:${TEXTTEST_HOME}/js-jest/test/texttest_fixture.js

@@ -1,5 +1,6 @@
 import { execSync } from 'node:child_process';
-import { Item, GildedRose } from '@/gilded-rose';
+import { GildedRose } from '@/gilded-rose';
+import { DepreciatingItem } from '@/depreciating-item';
 
 /**
  * This test uses Vitest Snapshot, similar to [Jest Snapshot](https://goo.gl/fbAQLP).
@@ -13,7 +14,7 @@ import { Item, GildedRose } from '@/gilded-rose';
 
 describe('Gilded Rose Approval', () => {
   it('should foo', () => {
-    const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+    const gildedRose = new GildedRose([new DepreciatingItem('foo', 0, 0)]);
     const items = gildedRose.updateQuality();
 
     expect(items).toMatchSnapshot();

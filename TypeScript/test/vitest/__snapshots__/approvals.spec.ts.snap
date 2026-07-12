@@ -1,4 +1,17 @@
-OMGHAI!
+// Vitest Snapshot v1
+
+exports[`Gilded Rose Approval > should foo 1`] = `
+[
+  DepreciatingItem {
+    "name": "foo",
+    "quality": 0,
+    "sellIn": -1,
+  },
+]
+`;
+
+exports[`Gilded Rose Approval > should thirtyDays 1`] = `
+"OMGHAI!
 -------- day 0 --------
 name, sellIn, quality
 +5 Dexterity Vest, 10, 20
@@ -371,3 +384,5 @@ Backstage passes to a TAFKAL80ETC concert, -20, 0
 Backstage passes to a TAFKAL80ETC concert, -25, 0
 Conjured Mana Cake, -27, 0
 
+"
+`;
